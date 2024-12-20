@@ -1,0 +1,65 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+
+.ColumnMarginBox.ColumnFirst
+{
+    margin-right:5px !important;
+}
+
+.ColumnMarginBox.ColumnInner
+{
+    margin-right:5px !important;
+    margin-left:5px !important;
+}
+
+.ColumnMarginBox.ColumnLast
+{
+    margin-left:5px !important;
+}
+
+.LayoutContainer
+{
+	overflow: hidden;
+	padding: 5px 10px;
+	position: relative;
+}
+
+/*
+     FILE ARCHIVED ON 21:12:52 Oct 31, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:32:49 Dec 19, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.513
+  exclusion.robots: 0.045
+  exclusion.robots.policy: 0.034
+  esindex: 0.01
+  cdx.remote: 6.876
+  LoadShardBlock: 100.987 (3)
+  PetaboxLoader3.datanode: 109.19 (4)
+  load_resource: 146.643
+  PetaboxLoader3.resolve: 97.993
+*/

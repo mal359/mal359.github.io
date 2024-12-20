@@ -1,0 +1,82 @@
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+h1, h2 {
+	text-transform:uppercase;
+	color:#ee1111;
+}
+
+h1 {
+
+	font-size:65px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size:28px;
+	font-weight:normal;
+}
+
+h4 {
+	text-transform:uppercase;
+	font-weight:bold;
+	display:inline;
+}
+
+.container p {
+	text-align: left;
+	font-size: 14px;
+	color:#333333;
+}
+
+.container {
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	margin-bottom:auto;
+	width: 60%;
+	max-width: 800px;
+	background-color: #eeeeee;
+	text-align:center; font-size: 18px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.5;
+	border-bottom: 1px solid #e5e5e5;
+	padding-right: 60px;
+	padding-left: 60px;
+	border-radius: 6px;
+}
+
+.content {
+	padding: 30px 60px 60px;
+}
+
+.boldest {
+	font-size: 140%;
+	font-weight:bold;
+}
+
+.lead {
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.4;
+	text-align:left;
+}
+
+@media (max-width: 768px) {
+  /* Remove the padding we set earlier */
+
+  .container {
+	margin: 20px auto;
+	padding: 20px;
+	width: 100%;
+	max-width: 600px;
+	}
+  .content {
+    padding: 20px;
+  }
+}

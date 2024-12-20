@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background:
+        radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #294057 68% 70%, #0000 72%) 30px 30px/calc(2*30px) calc(2*30px),
+        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #294057 68% 70%, #0000 72%) 30px 30px/calc(2*30px) calc(2*30px),
+        radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, #294057 68% 70%, #0000 72%) 0 0/calc(2*30px) calc(2*30px),
+        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, #294057 68% 70%, #0000 72%) 0 0/calc(2*30px) calc(2*30px),
+        repeating-conic-gradient(#243447 0 25%, #0000 0 50%) 0 0/calc(2*30px) calc(2*30px),
+        radial-gradient(#0000 66%, #294057 68% 70%, #0000 72%) 0 calc(30px/2)/30px 30px #243447;
+
+}
+
+header {
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 30px, #7a1a0c 30px, #7a1a0c 60px);
+    background-color: #52160b;
+    padding: 10px;
+    color: #ffffff;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.6);
+}
+main {
+    max-width: 900px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+}
+p {
+    text-wrap: balance;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img {
+    max-width: 300px;
+}

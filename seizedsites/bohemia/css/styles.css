@@ -1,0 +1,227 @@
+/* General Styles */
+body {
+  padding: 1.5rem 0;
+  background: #fff url('../images/background.jpg') no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+div * {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.videocontainer {
+  z-index: -3;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.videocontainer img {
+  position: relative;
+  z-index: -2;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 0.3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Uitlijning van de header-links (Main, FAQ) */
+/* Flexbox gebruiken voor de header om Main, FAQ en Notice correct uit te lijnen */
+.header {
+  display: flex;
+  justify-content: space-between;  /* Verspreidt de items gelijkmatig over de container */
+  align-items: center;             /* Verticaal centreren van items */
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin: 0;                        /* Verwijder de marge zodat Notice geen extra ruimte neemt */
+  color: #fff;
+}
+
+#head {
+  display: flex;                     /* Flexbox om de links horizontaal te plaatsen */
+  gap: 20px;                         /* Voeg ruimte tussen de links toe */
+  align-items: center;               /* Verticaal centreren van de links */
+}
+
+#head a {
+  padding: 0 15px;                   /* Ruimte tussen de linkjes */
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+#head a:hover {
+  color: #d2d2d2;
+  text-decoration: underline;
+}
+
+#head a:visited {
+  color: #d2d2d2;
+}
+
+#head a:active {
+  color: #fff;
+}
+
+
+.jumbotron {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2rem;
+}
+
+.jumbotron .display-3 {
+  margin: 0 0 1rem;
+  font-size: 4.0rem;
+  font-weight: bold;
+}
+
+/* Center the logos in the container */
+.marketing {
+  text-align: center;
+}
+
+/* Flexbox container for the logos and the stamp */
+.logo-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Adjust logo sizes and layout */
+.logo {
+  width: 75%;
+  height: auto;
+  
+}
+
+/* TCEC stamp logo */
+.stamp {
+  position: absolute;
+  top: -7%;
+  right: 5%;
+  width: 20%;
+  transform: rotate(25deg);
+  z-index: 10;
+  opacity: 0.8;
+}
+
+/* Footer styles */
+.footer {
+  padding: 1.5rem 0;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-row,
+.shield-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 932px;
+  margin-bottom: 1rem;
+}
+
+.logo-row img,
+.shield-row img {
+  max-height: 6em;
+  margin: 0 1rem;
+}
+
+/* Marketing section (for both pages) */
+.row.marketing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  gap: 20px; /* Ruimte tussen kolommen */
+}
+
+.row.marketing .col {
+  flex: 0 0 48%; /* Kolommen nemen 48% breedte in */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.row.marketing .col h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.row.marketing .col p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+  text-align: justify;
+}
+
+/* Links styling */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d2d2d2;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #7d048d;
+}
+
+a:active {
+  color: #fff;
+}
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+  .row.marketing > div {
+    flex: 0 0 100%; /* Kolommen nemen volledige breedte op kleine schermen */
+    margin-bottom: 1rem;
+  }
+
+  .logo-row,
+  .shield-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-row img,
+  .shield-row img {
+    margin: 0.5rem 0;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
